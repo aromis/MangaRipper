@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MangaRipper.Infrastructure"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MangaRipper.Plugin.ReadOPM", "MangaRipper.Plugin.ReadOPM\MangaRipper.Plugin.ReadOPM.csproj", "{93642668-6A9E-41C5-AFC7-09401A42EBA8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MangaRipper.Workflow", "MangaRipper.Workflow\MangaRipper.Workflow.csproj", "{903B6387-7073-4BC2-871B-829409150BEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MangaRipper.Workflow.Test", "MangaRipper.Workflow.Test\MangaRipper.Workflow.Test.csproj", "{CD111F38-D9BF-4F57-B13B-F4B9D3D94BBF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -151,6 +155,30 @@ Global
 		{93642668-6A9E-41C5-AFC7-09401A42EBA8}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{93642668-6A9E-41C5-AFC7-09401A42EBA8}.Release|x86.ActiveCfg = Release|Any CPU
 		{93642668-6A9E-41C5-AFC7-09401A42EBA8}.Release|x86.Build.0 = Release|Any CPU
+		{903B6387-7073-4BC2-871B-829409150BEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{903B6387-7073-4BC2-871B-829409150BEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{903B6387-7073-4BC2-871B-829409150BEC}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{903B6387-7073-4BC2-871B-829409150BEC}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{903B6387-7073-4BC2-871B-829409150BEC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{903B6387-7073-4BC2-871B-829409150BEC}.Debug|x86.Build.0 = Debug|Any CPU
+		{903B6387-7073-4BC2-871B-829409150BEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{903B6387-7073-4BC2-871B-829409150BEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{903B6387-7073-4BC2-871B-829409150BEC}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{903B6387-7073-4BC2-871B-829409150BEC}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{903B6387-7073-4BC2-871B-829409150BEC}.Release|x86.ActiveCfg = Release|Any CPU
+		{903B6387-7073-4BC2-871B-829409150BEC}.Release|x86.Build.0 = Release|Any CPU
+		{CD111F38-D9BF-4F57-B13B-F4B9D3D94BBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD111F38-D9BF-4F57-B13B-F4B9D3D94BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD111F38-D9BF-4F57-B13B-F4B9D3D94BBF}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{CD111F38-D9BF-4F57-B13B-F4B9D3D94BBF}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{CD111F38-D9BF-4F57-B13B-F4B9D3D94BBF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CD111F38-D9BF-4F57-B13B-F4B9D3D94BBF}.Debug|x86.Build.0 = Debug|Any CPU
+		{CD111F38-D9BF-4F57-B13B-F4B9D3D94BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD111F38-D9BF-4F57-B13B-F4B9D3D94BBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD111F38-D9BF-4F57-B13B-F4B9D3D94BBF}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{CD111F38-D9BF-4F57-B13B-F4B9D3D94BBF}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{CD111F38-D9BF-4F57-B13B-F4B9D3D94BBF}.Release|x86.ActiveCfg = Release|Any CPU
+		{CD111F38-D9BF-4F57-B13B-F4B9D3D94BBF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
